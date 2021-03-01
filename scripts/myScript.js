@@ -1,6 +1,6 @@
 $("document").ready(function () {
   let trigger = $("#hamburger")
-  let isClosed = true
+  let isClosed = false
   let menu = $('#navbar-buttons')
 
   trigger.click(function () {

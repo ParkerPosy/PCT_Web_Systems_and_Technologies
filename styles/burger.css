@@ -5,11 +5,9 @@
   position: relative;
   margin: 1px;
   margin-left: auto;
-  background-color: rbga(0,0,0,0.99);
   display: block;
   width: 68px;
   height: 68px;
-  -webkit-touch-callout: none;
   user-select: none;
 }
 
