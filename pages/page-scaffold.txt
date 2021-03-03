@@ -15,8 +15,8 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="styles/burger.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/burger.css" />
     <title>Parker Conn - parkerconn.com</title>
   </head>
   <body>
@@ -33,7 +33,6 @@
                   <span class="burger-bun-bot"></span>
                 </div>
               </div>
-
               <!-- svg ring container -->
               <div class="burger-ring">
                 <svg class="svg-ring">
@@ -48,7 +47,6 @@
                 </svg>
               </div>
               <!-- the masked path that animates the fill to the ring -->
-
               <svg width="0" height="0">
                 <mask id="mask">
                   <path
@@ -69,35 +67,29 @@
               <!-- Hamburger menu credit: https://codepen.io/kylehenwood/pen/Alayb -->
             </div>
             <nav class="buttons closed" id="navbar-buttons">
-              <!-- <a class="button-styling" href="#home">
+              <a class="button-styling" href="../index.html">
                 <span>Home</span>
-              </a> -->
-              <a class="button-styling" href="pages/about-me.html">
+              </a>
+              <a class="button-styling" href="about-me.html">
                 <span>About Me</span>
               </a>
-              <a class="button-styling" href="pages/projects.html">
+              <a class="button-styling" href="projects.html">
                 <span>Projects</span>
               </a>
-              <a class="button-styling" href="pages/resume.html">
+              <a class="button-styling" href="resume.html">
                 <span>Resume</span>
               </a>
-              <a class="button-styling" href="pages/contact-me.html">
+              <a class="button-styling" href="contact-me.html">
                 <span>Contact Me</span>
               </a>
             </nav>
           </div>
         </div>
       </header>
-
-      <section id="home">
-        <h2>Hi There, I'm Parker</h2>
-        <h3>Software Engineer</h3>
-        <br />
-        <p>Use the navigation buttons to see more!</p>
-      </section>
-
+      <!-- Content -->
       <div class="push"></div>
     </div>
+
     <footer>© <b>2021 Parker Conn</b></footer>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -114,6 +106,6 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <script src="scripts/myScript.js"></script>
+    <script src="../scripts/myScript.js"></script>
   </body>
 </html>
