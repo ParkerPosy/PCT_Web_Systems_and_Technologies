@@ -7,22 +7,19 @@
 }
 
 :root {
-  --header-color: #f3c456;
-  --header-font-color: #f0c066;
-
   --font-color: black;
   --font-color-2: rgb(58, 58, 58);
 
   --background-color: rgb(243, 243, 243);
 
   --footer-color: #20919b;
-  --footer-height: 8rem;
+  --footer-height: 5rem;
 
   --highlight-color: #f3c456;
 
   --color: #fff;
-  --animation: 0.6s;
-  --scale: 1;
+  --animation: 0.5s;
+  --scale: 0.8;
 }
 
 body,
@@ -48,7 +45,7 @@ h1 {
   color: white;
   stroke-width: 3px;
   -webkit-font-smoothing: antialiased;
-  text-shadow: 2px 2px 3px black;
+  text-shadow: 2px 2px 3px var(--font-color);
   font-weight: bolder;
   font-size: calc(30px + (48 - 30) * ((100vw - 300px) / (1600 - 300)));
 }
@@ -60,7 +57,7 @@ h2 {
 }
 
 h3 {
-  color: var(--font-color-2);
+  color: var(--font-color);
   font-weight: bold;
   font-size: calc(15px + (24 - 15) * ((100vw - 300px) / (1600 - 300)));
 }
@@ -112,6 +109,7 @@ footer {
 
 .content {
   min-height: 100%;
+  /* make margin bottom the negative version of the footer height */
   margin-bottom: calc(-1 * var(--footer-height));
 }
 
