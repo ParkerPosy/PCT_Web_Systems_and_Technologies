@@ -104,6 +104,23 @@ header {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .buttons.closed a {
+    display: none;
+  }
+  .buttons.expanded {
+    position: relative;
+  }
+  .buttons.expanded a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .buttons {
+    flex-basis: 100%;
+  }
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -123,6 +140,22 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: var(--footer-color);
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em 0.5em;
+  background-color: var(--highlight-color);
+  box-shadow: 2px 2px 3px rgb(0 0 0 / 66%);
+  border-radius: 5px;
+  padding: 0.5em;
+}
+
+.skill:hover {
+  box-shadow: 2px 2px 3px 1px rgb(0 0 0 / 66%);
+  filter: brightness(105%);
 }
 
 .button-styling {
@@ -156,7 +189,7 @@ footer {
 }
 
 .social-group {
-  margin-top: 5rem;
+  margin: 2rem 1rem 3rem 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -175,32 +208,9 @@ footer {
   min-width: 100px;
 }
 
-fieldset {
-  border: 5px solid var(--font-color);
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 2% 5%;
-}
-
-legend {
-  padding: 0.2em 0.5em;
-  float: none;
-  width: auto;
-  margin: 0.2em 0.5em;
-  color: var(--font-color);
-}
-
-.validation {
-  transform: scale(0);
-}
-
-.error ~ .validation {
-  color: red;
-  transform: scale(1);
-}
-
 label {
   font-weight: bolder;
+  color: var(--font-color-2);
 }
 
 .carousel-item > p {
@@ -211,21 +221,4 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@media screen and (max-width: 800px) {
-  .buttons.closed a {
-    display: none;
-  }
-  .buttons.expanded {
-    position: relative;
-  }
-  .buttons.expanded a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .buttons {
-    flex-basis: 100%;
-  }
 }
