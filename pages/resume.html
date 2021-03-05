@@ -66,20 +66,20 @@
               </div>
               <!-- Hamburger menu credit: https://codepen.io/kylehenwood/pen/Alayb -->
             </div>
-            <nav class="buttons closed" id="navbar-buttons">
-              <a class="button-styling" href="../index.html">
+            <nav class="buttons closed" aria-label="Navbar for parkerconn.com" id="navbar-buttons">
+              <a class="button-styling" role="menuitem" href="../index.html">
                 <span>Home</span>
               </a>
-              <a class="button-styling" href="about-me.html">
-                <span>About Me</span>
+              <a class="button-styling" role="menuitem" href="about.html">
+                <span>About</span>
               </a>
-              <a class="button-styling" href="projects.html">
+              <a class="button-styling" role="menuitem" href="projects.html">
                 <span>Projects</span>
               </a>
-              <a class="button-styling" href="resume.html">
+              <a class="button-styling" role="menuitem" href="resume.html">
                 <span>Resume</span>
               </a>
-              <a class="button-styling" href="contact-me.html">
+              <a class="button-styling" role="menuitem" href="contact-me.html">
                 <span>Contact Me</span>
               </a>
             </nav>
@@ -98,6 +98,96 @@
               download="Parker_Conn_Resume"
               >Download</a
             >
+          </div>
+        </section>
+        <section id="about-me" aria-labelledby="about-me-title">
+          <h2 id="about-me-title">About Me</h2>
+          <p>I'm a Software Engineer based out of State College, PA</p>
+          <br />
+          <h3>Skills</h3>
+          <div
+            class="skill-section"
+            role="group"
+            aria-labelledby="web-technologies"
+          >
+            <h4 class="skill-header" id="web-technologies">Web Technologies</h4>
+            <div class="row">
+              <p class="col skill">Javascript</p>
+              <p class="col skill">NodeJS</p>
+              <p class="col skill">Redux</p>
+              <p class="col skill">React</p>
+            </div>
+            <div class="row">
+              <p class="col skill">HTML</p>
+              <p class="col skill">CSS</p>
+              <p class="col skill">Bootstrap 4 / 5</p>
+            </div>
+          </div>
+          <div
+            class="skill-section"
+            role="group"
+            aria-labelledby="programming-languages"
+          >
+            <h4 class="skill-header" id="programming-languages">
+              Programming Languages
+            </h4>
+            <div class="row">
+              <p class="col skill">Python</p>
+              <p class="col skill">Java</p>
+              <p class="col skill">C++</p>
+            </div>
+          </div>
+          <div class="skill-section" role="group" aria-labelledby="databases">
+            <h4 class="skill-header" id="databases">Databases</h4>
+            <div class="row">
+              <p class="col skill">SQL</p>
+              <p class="col skill">MongoDB</p>
+            </div>
+          </div>
+          <div
+            class="skill-section"
+            role="group"
+            aria-labelledby="version-control"
+          >
+            <h4 class="skill-header" id="version-control">Version Control</h4>
+            <div class="row">
+              <p class="col skill">Git</p>
+            </div>
+          </div>
+          <div class="skill-section" role="group" aria-labelledby="ides">
+            <h4 class="skill-header" id="ides">IDEs</h4>
+            <div class="row">
+              <p class="col skill">VSCode</p>
+              <p class="col skill">Visual Studio</p>
+              <p class="col skill">IntelliJ</p>
+            </div>
+          </div>
+          <div
+            class="skill-section"
+            role="group"
+            aria-labelledby="operating-systems"
+          >
+            <h4 class="skill-header" id="operating-systems">
+              Operating Systems
+            </h4>
+            <div class="row">
+              <p class="col skill">Windows 7 / 8 / 10</p>
+            </div>
+            <div class="row">
+              <p class="col skill">MacOS</p>
+            </div>
+            <div class="row">
+              <p class="col skill">Linux</p>
+              <p class="col skill">Kali</p>
+              <p class="col skill">Linux Mint</p>
+            </div>
+          </div>
+          <div class="skill-section" role="group" aria-labelledby="other">
+            <h4 class="skill-header" id="other">Other</h4>
+            <div class="row">
+              <p class="col skill">Office 365</p>
+              <p class="col skill">Azure</p>
+            </div>
           </div>
         </section>
       </main>
