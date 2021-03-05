@@ -24,10 +24,12 @@
   margin: 2rem auto 5rem auto;
   border-radius: 10px;
   background: #f3f3f3;
-  box-shadow: 10px 10px 20px #e0e0e0, -10px -10px 20px #ffffff;
+  box-shadow: 25px 25px 80px #cfcfcf, -25px -25px 80px #ffffff;
 }
 
 .card-img-top {
   width: 100%;
   height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
