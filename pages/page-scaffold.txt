@@ -86,7 +86,11 @@
           </div>
         </div>
       </header>
-      <!-- Content -->
+
+      <main>
+        <!-- Content -->
+      </main>
+
       <div class="push"></div>
     </div>
 

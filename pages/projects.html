@@ -87,55 +87,136 @@
         </div>
       </header>
 
-      <section id="projects" aria-labelledby="project-title">
-        <h2 id="projects-title">Projects</h2>
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-ride="false"
-          data-interval="false"
-        >
-          <ol class="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <p>1: Lorem, ipsum dolor.</p>
+      <main>
+        <section id="projects" aria-labelledby="project-title">
+          <h2 id="projects-title">Projects</h2>
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="false"
+            data-interval="false"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="../images/hangman_project.PNG"
+                    alt="Image of hangman project"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Hangman</h4>
+                    <p class="card-text">
+                      This project was built using React JS following a tutorial
+                      by
+                      <a href="https://www.youtube.com/watch?v=jj0W8tYX_q8"
+                        >Traversy Media</a
+                      >. To play, enter letters on your keyboard and they will
+                      be placed appropriately in the app. If a wrong letter is
+                      entered, an appendage of the man is shown and the letter
+                      is stored in the incorrect letters box. Duplicate letters
+                      are ignored.
+                      <br />
+                      <br />
+                      This project expanded upon my knowledge of react hooks and
+                      setting up a react project. On top of the tutorial I
+                      customized the CSS further and added significant code
+                      linting using ESLint and Prettier. With the addition of
+                      the NPM package "prop-types" I was able to make my
+                      components typed and more durable to invalid arguments.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="../images/weather_pwa_project.PNG"
+                    alt="Image of weather progressive web app"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Weather PWA</h4>
+                    <p class="card-text">
+                      This project was also built in React JS following a
+                      tutorial by
+                      <a
+                        href="https://www.youtube.com/watch?v=IaJqMcOMuDM&t=2725s"
+                        >JavaScript Mastery</a
+                      >
+                      This project is a Progressive Web App. To use, enter a
+                      location in the search box and data will be displayed from
+                      <a href="https://openweathermap.org/api">
+                        Open Weather Map</a
+                      >.
+                      <br />
+                      <br />
+                      This project expanded upon my knowledge of web
+                      technologies. I learned how to use web app manifests,
+                      service workers, and asynchronous Axios requests. Further,
+                      my foundations in React JS were reinforced. This project
+                      was also enhanced using ESLint and Prettier. The project
+                      can be found
+                      <a href="https://loving-turing-411f3a.netlify.app/"
+                        >here</a
+                      >.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="carousel-item">
+                <div class="card">
+                  <img class="card-img-top" src="..." alt="Card image cap" />
+                  <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Aut, aliquam obcaecati! Ad eaque quam fugit.
+                    </p>
+                  </div>
+                </div>
+              </div> -->
             </div>
-            <div class="carousel-item">
-              <p>2: Lorem, ipsum dolor.</p>
-            </div>
-            <div class="carousel-item">
-              <p>3: Lorem, ipsum dolor.</p>
-            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </section>
-      
+        </section>
+      </main>
+
       <div class="push"></div>
     </div>
 
