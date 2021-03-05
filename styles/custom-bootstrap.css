@@ -21,7 +21,7 @@
 
 .card {
   width: clamp(10rem, 55vw, 50rem);
-  margin: 2rem auto 5rem auto;
+  margin: 2rem auto 2rem auto;
   border-radius: 10px;
   background: #f3f3f3;
   box-shadow: 25px 25px 80px #cfcfcf, -25px -25px 80px #ffffff;
