@@ -27,8 +27,15 @@
   width: clamp(10rem, 55vw, 50rem);
   margin: 2rem auto 2rem auto;
   border-radius: 10px;
-  background: #f3f3f3;
-  box-shadow: 25px 25px 80px #cfcfcf, -25px -25px 80px #ffffff;
+  box-shadow: 15px 15px 30px #c7c7c7, -15px -15px 30px #ffffff;
+}
+
+.card-body {
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  background: linear-gradient(145deg, #ffffff, #dbdbdb);
 }
 
 .card-img-top {

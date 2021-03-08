@@ -10,7 +10,7 @@
   --font-color: black;
   --font-color-2: rgb(58, 58, 58);
 
-  --background-color: rgb(243, 243, 243);
+  --background-color: #f3f3f3;
 
   --footer-color: #20919b;
   --footer-height: 5rem;
@@ -29,12 +29,6 @@ html {
   color: var(--font-color);
   font-size: 14px;
   font-family: Helvetica, sans-serif;
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Old versions of Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
 body {
@@ -212,6 +206,8 @@ footer {
   background: var(--footer-color);
   color: var(--background-color);
   outline: none;
+  transform: translateY(-2px);
+  box-shadow: 0 3px 9px 0 rgba(0,0,0,0.15)
 }
 
 .button-group {
@@ -260,4 +256,56 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.tag {
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: 0.3em;
+}
+
+.css-color {
+  background-color: #563d7c;
+  color: var(--background-color);
+}
+
+.js-color {
+  background-color: #f1e05a;
+  color: black;
+}
+
+.react-color {
+  background-color: #61dafb;
+  color: black;
+}
+
+.node-color {
+  background-color: #026e00;
+  color: var(--background-color);
+}
+
+.html-color {
+  background-color: #e34c26;
+  color: var(--background-color);
+}
+
+.bootstrap-color {
+  background-color: #563d7c;
+  color: var(--background-color);
+}
+
+.redux-color {
+  background-color: #764abc;
+  color: var(--background-color);
+}
+
+.mongo-color {
+  background-color: #13aa52;
+  color: var(--background-color);
 }
