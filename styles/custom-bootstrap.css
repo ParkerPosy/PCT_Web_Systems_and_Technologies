@@ -18,8 +18,8 @@
 }
 
 .carousel-inner {
-  /* add min height */
-  min-height: 60rem;
+  /* stop resizing after changing cards */
+  min-height: 65rem;
 }
 
 .card {
@@ -31,6 +31,7 @@
 }
 
 .card-body {
+  /* neumorphism and stuff */
   border-top: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 10px;
   border-top-left-radius: 0px;
