@@ -7,8 +7,8 @@
 }
 
 :root {
-  --font-color: black;
-  --font-color-2: rgb(58, 58, 58);
+  --font-color: #2b2d38;
+  --font-color-2: #3b3e4d;
 
   --background-color: #f3f3f3;
 
@@ -45,7 +45,7 @@ h1 {
   color: white;
   stroke-width: 3px;
   -webkit-font-smoothing: antialiased;
-  text-shadow: 2px 2px 3px var(--font-color);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, .85);
   font-weight: bolder;
   font-size: calc(30px + (48 - 30) * ((100vw - 300px) / (1600 - 300)));
 }
@@ -268,9 +268,8 @@ label {
 .tag {
   border-radius: 3px;
   padding: 0.5rem;
-  margin: 0.3rem;
+  margin: 0.35rem;
   box-shadow: 5px 5px 10px #c7c7c7, -5px -5px 10px #ffffff;
-  z-index:0;
 }
 
 .css-color {
